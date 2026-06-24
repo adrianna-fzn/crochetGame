@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-start; align-items: auto; align-content: auto; align-self: auto;">
+        <ui:VisualElement name="leftSideBar" style="flex-grow: 0; width: 500px; background-color: rgb(156, 98, 98); left: 0; position: relative; height: 100%; align-items: stretch; align-self: auto; align-content: auto;">
+            <ui:ScrollView name="grannySquareTemplates" style="flex-grow: 1;"/>
+            <ui:ScrollView name="craftedGrannySquares" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottomBar" style="flex-grow: 1; background-color: rgb(148, 152, 112); height: 400px; flex-direction: row;">
+            <ui:VisualElement name="craftedItems" style="flex-grow: 1;"/>
+            <ui:VisualElement name="stocks" style="flex-grow: 1;"/>
+            <ui:VisualElement name="blocking" style="flex-grow: 1;"/>
+            <ui:VisualElement name="assembly" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
